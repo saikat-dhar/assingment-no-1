@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner-container {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+
+}
+
+.banner-container .banner-img {
+    width: 635px;
+    height: 800px;
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+}
+
+.banner-description {
+    color: rgb(128, 114, 114);
+    margin-top: auto;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #E55473;
+    border-radius: 5px;
+}
+
+.seconde-section {
+    text-align: center;
+}
+
+.banner-title-sec {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(43, 37, 37);
+}
+
+.banner-description-next {
+    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 30px;
+
+}
+
+.item-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    gap: 5px;
+}
+
+
+
+/* this is footer section */
+footer {
+    text-align: center;
+    background-color: black;
+    
+}
