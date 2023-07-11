@@ -5,6 +5,7 @@ body {
 .banner-container {
     padding: 30px 30px 30px 150px;
     display: flex;
+    background-color: #E554731A;
 
 }
 
@@ -29,6 +30,7 @@ button {
     font-weight: 700;
     background-color: #E55473;
     border-radius: 5px;
+    border: none;
 }
 
 .seconde-section {
@@ -60,7 +62,11 @@ button {
 .item-img {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 370px;
+    height: 420px;
 }
 
 
@@ -69,5 +75,14 @@ button {
 footer {
     text-align: center;
     background-color: black;
-    
+    color: #FFFFFF;
+    margin: 40px 100px;
+    padding: 60px 120px;
+    width: auto.;
+    height: 300px
+}
+
+.fink-flower{
+    text-align: center;
+    text-decoration: underline;
 }
