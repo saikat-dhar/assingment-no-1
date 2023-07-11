@@ -55,7 +55,7 @@ button {
     justify-content: space-between;
     align-items: center;
     margin: 20px 40px;
-    padding: 30px;
+    padding: 60px;
 
 }
 
@@ -68,19 +68,48 @@ button {
     width: 370px;
     height: 420px;
 }
-.bar-containe{
+
+.bar-containe {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 20px 40px;
-    padding: 20px;
+    padding: 30px;
     background-color: #2727270D;
     border-radius: 5px;
-}
-.bar-text{
     text-align: center;
 }
 
+.bar-text {
+    display: flex;
+
+}
+
+.bar-img {
+    padding: 80px 120px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.content-title {
+    color: #272727;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.content-description{
+    text-align: center;
+}
+.btn-primary{
+text-align: center;
+}
 
 /* this is footer section */
 footer {
@@ -93,7 +122,7 @@ footer {
     height: 300px
 }
 
-.fink-flower{
+.fink-flower {
     text-align: center;
     text-decoration: underline;
 }
