@@ -62,7 +62,7 @@ button {
 }
 
 .item-img {
-    border-radius: 300px 300px 0px 0px;
+    border-radius: 280px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     justify-content: space-between;
     align-items: center;
@@ -90,8 +90,9 @@ button {
 .banner-img {
 
     width: 200px;
-    height: 250px;
-    margin-bottom: 0px;
+    height: 200px;
+    padding-bottom: 0px;
+
 }
 
 .content-container {
@@ -177,6 +178,7 @@ button {
     margin: 100px 60px;
     padding: 80px;
     background-image: url('Flower\ Asset/Rectangle 9.png');
+    background-position: ;
 }
 
 .input-item {
