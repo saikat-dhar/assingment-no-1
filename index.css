@@ -68,7 +68,18 @@ button {
     width: 370px;
     height: 420px;
 }
-
+.bar-containe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 40px;
+    padding: 20px;
+    background-color: #2727270D;
+    border-radius: 5px;
+}
+.bar-text{
+    text-align: center;
+}
 
 
 /* this is footer section */
